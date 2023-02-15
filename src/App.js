@@ -13,12 +13,6 @@ const Reseñas = () => <h1>Valoranos</h1>;
 const inlineStyles = {
   padding: 5,
 };
-const App = () => {
-  const [page, setPage] = useState(() => {
-    const { pathname } = window.location;
-    const page = pathname.slice(1);
-    return page;
-  });
 
   const getContent = () => {
     if ((page = "contacto")) {
